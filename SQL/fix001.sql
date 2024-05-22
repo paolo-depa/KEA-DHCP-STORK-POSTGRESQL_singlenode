@@ -1,4 +1,5 @@
--- Bug: when running createauditentrydhcp4 function having audits enabled the function fails, as far as the dhcp4_audit_revision table is empty
+-- Bug #3420 (https://gitlab.isc.org/isc-projects/kea/-/issues/3420):
+-- when running createauditentrydhcp4 function having audits enabled the function fails, as far as the dhcp4_audit_revision table is empty
 
 -- Workaround below:
 

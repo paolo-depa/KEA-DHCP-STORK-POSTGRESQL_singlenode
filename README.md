@@ -1,4 +1,4 @@
-# Single node KEA DHCP server + STORK Web frontend + PostgreSQL backend installation
+# Single node KEA DHCPv4 server + STORK Web frontend + PostgreSQL backend installation
 
 ## Software
 
@@ -43,3 +43,15 @@
 > ii  postgresql-client-16                           16.2-1ubuntu4                            amd64        front-end programs for PostgreSQL 16<br/>
 > ii  postgresql-client-common                       257build1                                all          manager for multiple PostgreSQL client versions<br/>
 > ii  postgresql-common                              257build1                                all          PostgreSQL database-cluster manager<br/>
+
+# References
+
+## KEA
+
+https://kea.readthedocs.io/en/latest/arm/install.html
+https://kea.readthedocs.io/en/latest/arm/admin.html#postgresql
+
+
+## Stork
+
+https://stork.readthedocs.io/en/latest/install.html
